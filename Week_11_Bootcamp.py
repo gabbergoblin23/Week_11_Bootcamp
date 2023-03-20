@@ -18,7 +18,7 @@ def RunMenu(menuOptions):
 			
 			menuChoice = int(input('\nPlease make a selection from the list provided:\n'))
 
-			if menuChoice < 1 or menuChoice > len(menuChoice - 1):
+			if menuChoice < 1 or menuChoice > (len(menuOptions) - 1):
 
 				raise ValueOutOfRange
 
